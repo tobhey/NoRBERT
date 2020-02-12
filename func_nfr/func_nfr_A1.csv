@@ -1,0 +1,310 @@
+ProjectID;RequirementText;Functions;Data;Behavior
+1;The system shall refresh the display every 60 seconds.;0;0;1
+1;The product shall ensure that it can only be accessed by authorized users. The product will be able to distinguish between authorized and unauthorized users in all access attempts;1;0;1
+1;The system shall have a MDI form that allows for the viewing of the graph and the data table.;0;1;0
+1;The system shall display Events in a vertical table by time.;1;0;0
+1;The system shall display the Events in a graph by time.;1;0;0
+1;The system shall display Events or Activities.;1;0;0
+1;The top 1/4 of the table will hold events that are to occur sequentially.;0;1;0
+1;The bottom 3/4 of the table will hold events that occur according to its relevance to current time.;0;1;0
+1;The system shall color code events according to their variance from current time.;1;0;0
+1;The system shall display data from the Sync Matrix 1.0 and Exercise Management Tool 1.0 applications;1;0;0
+1;The system shall link Events back to either the Sync Matrix 1.0 or the Exercise Managment Tool 1.0 applications for modifications.;1;0;0
+1;The system shall allow modification of the display.;1;0;0
+1;The system shall offer a display of all the Events in the exercise.;0;1;0
+1;The system shall filter data by: Venues and Key Events.;1;0;0
+1;The system shall allow a user to define the time segments;1;0;0
+1;The system shall display the local and exercise time in separate clocks;1;0;0
+1;The system shall offer the ability to pause and resume the refresh of data.;1;0;0
+1;The system shall provide charts for the Activity or Event actual versus assumed time.;1;1;0
+1;The system shall provide a history report of changes made to the Activity or Event data;1;1;0
+2;The product shall produce search results in an acceptable time;1;0;0
+2;The search results shall be returned no later 30 seconds after the user has entered the search criteria;0;0;1
+2;The product shall generate a CMA report in an acceptable time.;1;0;0
+2;The CMA report shall be returned no later 60 seconds after the user has entered the CMA report criteria.;0;0;1
+2;The product shall synchronize contacts and appointments in an acceptable time.;0;0;1
+2;The product shall synchronize with the office system every hour.;0;0;1
+2;The product shall allow the user to view previously downloaded search results CMA reports and appointments.;1;0;0
+2;The product shall retain user preferences in the event of a failure.;0;0;1
+2;100% of saved user preferences shall be restored when system comes back online.;0;0;1
+2;The product shall be able to support multiple remote users;0;0;1
+2;Every user of the system shall be authenticated and authorized.;0;0;1
+2;The system shall allow a real estate agent to query MLS information;1;0;0
+2;The user shall be able to get driving directions to a selected property;1;0;0
+2;The user shall be able to download appointments and contact information for clients;1;0;0
+2;The system shall display clear property images in the search results;0;1;1
+2;The system shall update or create new property listings in the MLS;1;0;0
+2;Realtor shall be able to generate a CMA report based on property criteria;1;0;0
+2;The system shall be able to call the seller or buyer to schedule an appointment;1;0;0
+2;The realtor shall be notified of new client appointments after automatic synchronization with office system;0;0;1
+2;The realtor shall be able to retrieve a map showing property locations for a specified area;1;0;0
+2;The system shall notify the realtor when a seller or buyer responds to an appointment request;0;0;1
+2;The product shall allow the user to save the property search results.;1;0;0
+3;2 out of 3 Program Administrators/Nursing Staff Members shall successfully be able to use the system to manage the scheduling of classes and clinicals.;1;0;0
+3;The system shall be expected to manage the nursing program curriculum and class/clinical scheduling for a minimum of 5 years.;1;0;0
+3;The system shall have basic data integrity checking to reduce the possibility of incorrect or invalid data being introduced.;1;0;0
+3;The system shall protect private information in accordance with the organization's information policy.;1;0;0
+3;A cohort shall be associated to one Program of Study offered by the department.;0;1;0
+3;Program Administrators and Nursing Staff Members shall be able to add a listing of students to a cohort.;1;0;0
+3;Program Administrators and Nursing Staff Members shall be able to add a single student to a cohort;1;0;0
+3;Students added to a cohort shall be eligible for the cohort's Program of Study.;0;0;1
+3;Program Administrators and Nursing Staff Members shall be able to specify the preferred sequence of classes for a given cohort.;1;0;0
+3;For each class within a sequence for a cohort Program Administrators and Nursing Staff Members shall be able to specify which quarter that class will be offered.;1;1;0
+3;Program Administrators and Nursing Staff Members shall be able to add new classes to a sequence of classes;1;0;0
+3;Program Administrators and Nursing Staff Members shall be able to add clinical classes or sections to a sequence of classes;1;0;0
+3;Program Administrators and Nursing Staff Members shall be able to add a new cohort to the system identified by start month and year.;1;0;0
+3;Program Administrators and Nursing Staff Members shall be able to add new classes for the nursing department into the system.;1;0;0
+3;Program Administrators/Nursing Staff Members shall be able to create a new Program of Study.;1;0;0
+3;Program Administrators and Nursing Staff Members shall have the ability to specify which classes are required for a Program of Study;1;0;0
+3;The system shall be able to display a report of needed classes for a given quarter for all cohorts of all programs for Program Administrators/Nursing Staff Members' planning purposes.;1;0;0
+3;The report of needed classes shall include (but not be limited to) classes to be offered number of sections needed number of labs needed and room types needed.;0;1;0
+3;Classes for a given cohort shall not conflict with regards to the time and day that they are offered.;0;0;1
+3;Program Administrators and Nursing Staff Members shall be able to add a new clinical site into the system.;1;0;0
+3;Program Administrators and Nursing Staff Members shall be able to add a new clinical lab section for an existing clinical class into the System.;1;0;0
+3;Program Administrators and Nursing Staff Members shall be able to add a student who has registered for a clinical class to a clinical lab section for that class.;1;0;0
+3;The system shall allow a Program Administrator or Nursing staff member to remove a student from a clinical lab section.;1;0;0
+3;The system shall allow a Program Administrator/Nursing Staff Member to move a student from one clinical lab section to another clinical lab section corresponding to the same clinical class.;1;0;0
+3;Program Administrators/Nursing Staff Members shall be able to cancel a clinical lab section only if there are no students registered for that clinical lab section.;1;0;1
+3;A Program Administrator/Nursing Staff Member shall be able to add a new nursing student to the system.;1;0;0
+3;A staff member shall have the ability to manage the progress of a part time student which includes modifying their sequence of classes and timeline of classes.;1;0;0
+3;The system shall be able to display a printable summary for individual cohorts which will include the students enlisted the Program of study sequence of classes cohort progress through the program and timeline of completion.;1;1;0
+3;The system shall be able to display a printable summary for individual clinical sites which will include information on labs being held at that site for the given quarter (Clinical site general information on labs held at that location dates and times of all labs held there).;1;1;0
+3;The system shall be able to display a printable summary for individual clinical labs which will include (but not be limited to) class name class number lab section listing of students enrolled instructor day(s) time and location.;1;1;0
+3;The system shall be able to display a printable summary for individual nursing students which will include (but not be limited to) student name student ID admission date classes credits GPA and the cohort that the student is enrolled in.;1;1;0
+3;The system shall be able to display a printable summary of the system log.;1;0;0
+3;The system shall contain contact information (e-mail and phone number) for all people relevant to the system including (but not limited to) staff members students lecture instructors clinical lab instructors and clinical site administrators.;0;1;0
+3;The system will use the stored e-mail addresses as a primary means of communicating information to affected parties.;0;1;0
+3;The system will notify affected parties for routine communication purposes including but not limited to informing students of upcoming offered classes (timeline) and what their schedule will be/shall be.;0;0;1
+3;The system will notify affected parties when changes occur affecting clinicals including but not limited to clinical section capacity changes and clinical section cancellations.;0;0;1
+3;The system will notify affected parties when changes occur affecting classes including but not limited to class cancellations class section detail changes and changes to class offerings for a given quarter.;0;0;1
+3;The system will notify affected parties when changes occur affecting cohorts including but not limited to changes to the sequence for a cohort's program of study and changes to a given week's schedule (lab cancelled this week due to instructor illness).;0;0;1
+3;The system will notify affected parties when changes occur affecting specific students including but not limited to changing a student's status from full time to part time and moving a student to a different clinical section.;0;0;1
+3;Program Administrators/Nursing Staff Members shall have the ability to modify information relating to cohorts including cohort identifier program of study preferred sequence of classes and quarters that a cohort will be taking specific classes.;1;1;0
+3;Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Program of Study within the Nursing Department including the Program of study name and required classes for that Program of Study.;1;1;0
+3;Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Clinical Site including the clinical site name site contact person contact information and address.;1;1;0
+3;Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Clinical Lab Section including the clinical site name the department/section for the lab the class instructor day and time of lab and contact information.;1;1;0
+3;Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Nursing Student including student ID student name phone number e-mail status (full time or part time) and program of study.;1;1;0
+4;Only users with Update access must be able to initiate dispute requests.;1;0;1
+4;The Disputes System shall generate a User Report that details any new users that have been added and any changes to an existing user's access level. The report will be reviewed for auditing purposes.;1;0;0
+4;All additions of new users and modifications to user's access shall be recorded on the User Report.;0;0;1
+4;The Disputes application shall manipulate and view business data. Users will not have direct access to data files or databases.;1;0;0
+4;The Disputes application must maintain a detailed history of every action that a user takes on a dispute case. This ensures a complete audit trail if questions arise later on with regard to a particular dispute case.;0;1;1
+4;All actions that modify an existing dispute case must be recorded in the case history.;0;0;1
+4;The Disputes System shall provide update access capability for authorized users of the application.;1;0;0
+4;The Disputes System must allow the users to select disputable transactions (based on the age of the transaction) from a user interface and initiate a dispute (ticket retrieval request or chargeback notification) on the selected transaction.;1;0;0
+4;The Disputes System must provide the user the ability to initiate a single dispute case on multiple transactions that belong to a single merchant.;1;0;0
+4;The Disputes System will provide the user the ability to create or initiate a ticket retrieval request. As part of ticket retrieval creation process the system must prompt the user to enter all the required information to create the ticket retrieval request. The ticket retrieval request is a document that is sent to merchant inquiring the validity of a transaction.;1;1;0
+4;The Disputes System must allow the user to create three unique types of ticket retrieval requests. The three types of ticket retrieval requests are (1) Request for original receipt (2) Request for a copy of the receipt or (3) Request for a portfolio. A portfolio consists of documentation that would provide proof of a purchase such as the documentation that is received from a car rental agency that is more than a sales receipt.;1;1;0
+4;The Disputes System must prevent external users from requesting original receipts. Requests for original receipts are restricted to internal users.;0;0;1
+4;The Disputes System must provide a confirmation to the user upon the creation of ticket retrieval request that contains the following information  the dispute case number the type of retrieval requested (copy original or portfolio) and the date that the merchant response is due.;1;1;1
+4;The Disputes System shall allow the user to create or initiate a chargeback request. The system must prompt the user to enter the required information to initiate a chargeback request. The chargeback request results in a printed chargeback notification that is sent to merchant indicating that their account will be charged back if no proof is provided that the disputed transaction is valid.;1;0;1
+4;The Disputes System must provide a confirmation to the user upon the creation of a chargeback request. The confirmation must contain the following information  the dispute case number the type of chargeback requested (pending or immediate) and the date that the merchant response is due.;1;1;1
+4;The Disputes System shall prevent the creation of duplicate dispute requests 100% of the time.;0;0;1
+4;The Disputes System shall accurately provide a list of possible reason codes for a given transaction. The list of possible reason codes must be derived based on the type of transaction and the industry that the merchant belongs to according to the business rules defined for the Disputes System.;1;0;0
+4;The Disputes System must provide the ability to view existing dispute cases.;1;0;0
+4;The Disputes System must provide Search functionality. The search method must include the ability to search by (1) the dispute case number (2) the merchant account number (3) the cardmember account number and (4) the issuer number. In addition to the above criteria the search functionality must further allow the user to limit the results of the search by a date range the type of dispute (ticket retrieval request or chargeback notification) the case status (open closed or all) and the dispute reason code.;1;0;0
+4;A list of all disputes cases that meet the entered search criteria must be provided to the user. The list of cases must differentiate the type and/or status of the case by color -coding the line item in the list. For example all open cases will be yellow and all closed cases will be gray.;1;0;0
+4;The Disputes System shall provide the users the ability to view the history of all activities that have occurred on the dispute case.;1;0;0
+4;The Dispute System shall provide the users with the ability to follow up on a dispute case via follow-up actions. The list of available follow up actions for a given dispute case must be filtered by the status of the case and the access level of the user.;1;0;1
+4;The Disputes System shall record the name of the user and the date for any activity that creates or modifies the disputes case in the system. A detailed history of the actions taken on the case including the date and the user that performed the action must be maintained for auditing purposes.;1;1;1
+4;For any systematic (non-user initiated) action that occurs on a case such as the disputes aging process a case activity will be generated. Upon the next logon the user that initiated the dispute case must be notified that a systematic action has occurred on the dispute case.;1;0;1
+4;All letter requests must be formatted according to guidelines specified by the Print Letter Utility system.;0;0;1
+4;Any disputes cases that have been closed for over 6 months must be purged from the online disputes database.;0;0;1
+5;The recycled parts audit report shall be returned to the user within 10 seconds. The audit report shall be returned within 10 seconds.;1;0;1
+5;The preferred repair facility ratings shall be saved within 5 seconds. The save shall occur within 5 seconds.;1;0;1
+5;Only adjusters can request recycled parts audit reports. No users without an adjuster role shall request recycled parts audits.;1;0;1
+5;Only adjusters with a supervisor role can update preferred repair facility ratings. Users without the supervisor role cannot access the repair facility ratings.;1;0;1
+5;Only collision estimators shall search for recycled parts. Users without the collision estimator role shall not have access to the search for recycled parts.;1;0;1
+5;The user shall search for the preferred repair facility using vehicle vehicle location and radius in miles;1;0;0
+5;The system shall resolve the zipcode for the street address city and state if zipcode is unknown.;0;0;1
+5;The system shall locate the preferred repair facility with the highest ratings for the input criteria;1;0;0
+5;The adjuster shall enter the preferred repair facility on the estimate assignment.;1;0;0
+5;The adjuster shall be able to override the preferred repair facitlity on the estimate assignment.;1;0;0
+5;The preferred repair facility shall be returned to the user.;1;0;0
+5;The system shall return a list of repair facilities within the radius if the preferred repair facility cannot be determined.;0;0;1
+5;The estimator shall search for available recycled parts using damaged vehicle parts information.;1;0;0
+5;The estimator shall search for available recycled parts using a list of preferred parts suppliers.;1;0;0
+5;The system shall search for available recycled parts for the supplied vehicle parts and suppliers.;1;0;0
+5;The estimator shall search by zipcode with a radius of 30 miles if no parts are found for the preferred parts suppliers;0;0;1
+5;The system shall retain the available recycled parts and suppliers returned from the search.;0;1;1
+5;The available recycled parts information and their suppliers shall be returned to the user.;1;0;0
+5;The estimator shall apply selected recycled parts to the collision estimate.;1;0;0
+5;The estimator shall not apply recycled parts to the collision estimate if no available parts are returned.;0;0;1
+5;The adjuster shall review the collision estimate.;1;0;0
+5;The adjuster shall request a recycled parts audit of the collision estimate.;1;0;0
+5;The recycled parts search results provided to the estimator shall be retrieved by the system.;1;0;0
+5;The system shall generate an audit report based on the available recycled parts and the collision estimate.;1;0;0
+5;The audit report shall include the total number of recycled parts used in the estimate.;0;1;0
+5;The audit report shall include the number of available recycled parts from the original search results.;0;1;0
+5;The audit report shall include the percentage of available recycled parts used in the estimate ;0;1;0
+5;The audit report shall include the total score of the audit which sums the indivual line items.;0;1;0
+5;The audit report shall be displayed to the user.;1;0;0
+5;The audit report shall be available to other adjusters at later points in time.;0;1;0
+5;The user shall select to view the preferred repair facility ratings.;1;0;0
+5;The current repair facility ratings shall be displayed to the user.;1;0;0
+5;The system will display a blank set of ratings if there are not ratings yet defined.;0;0;1
+5;The user shall enter new ratings based on the audit report;1;0;0
+5;The ratings shall be from a scale of 1-10;0;1;0
+5;The user shall select to save the preferred repair facility ratings.;1;0;0
+5;The preferred repair facility ratings shall be saved by the system.;1;1;0
+6;The product shall allow the user to select a chosen language from one of the target market countries.;1;0;0
+6;The product shall allow for intuitive searching of available conference rooms.;1;0;0
+6;The product shall create an exception log of problems encountered within the product for transmission to our company for analysis and resolution.;1;0;0
+6;Only managers are able to perform search queries for reservations by user. 100% of all search queries for reservations by user shall be from logons of only management logons.;1;0;1
+6;The product shall be able to display calendar dates and times according to the user's locale. 90% of survey respondents from each target market country will find that the date and time formatting of the product is correct.;1;0;0
+6;The product shall record meeting entries.;1;0;0
+6;The product will notify employees of meeting invitations.;1;0;1
+6;The product shall have the ability to send meeting reminders to employees.;1;0;0
+6;The product shall assign the organizers contact information to each meeting they create.;1;0;0
+6;The product will record meeting acknowledgements.;1;0;0
+6;The product shall store new conference rooms.;1;0;0
+6;The product shall update existing conference rooms.;1;0;0
+6;The product will be able to delete conference rooms.;1;0;0
+6;The product shall be able to store new room equipment.;1;0;0
+6;The product will update existing room equipment.;1;0;1
+6;The product shall be able to delete room equipment.;1;0;0
+6;The product shall allow an organizer to invite other employees to meetings.;1;0;0
+6;Each time a conference room is reserved the conference room schedule shall be updated to reflect the time and date of the reservation.;0;0;1
+6;The product shall record the transportation status of equipment reserved.;1;0;0
+6;The product shall display a map of the company building showing conference room locations.;1;0;0
+6;The product shall record updated meeting agendas.;1;0;1
+6;The product shall send a meeting confirmation to the meeting organizer.;1;0;0
+6;The product shall display room equipment according to search parameters.;1;0;0
+6;The product shall display conference rooms according to search parameters.;1;0;0
+6;The product shall record different meeting types.;1;1;0
+6;The product shall record all the equipment that has been reserved.;1;0;1
+6;The product shall notify building personnel of equipment transport requests.;0;0;1
+6;The product will allow priviledged users to view meeting schedules in multiple reporting views.;1;0;0
+6;The product shall be able to send meeting notifications via different kinds of end-user specified methods.;1;0;0
+6;The product shall have a customizable Look and Feel.;0;1;0
+6;The product will display an available status for unreserved conference rooms.;1;0;0
+7;Recreation of Inventory Quantity Adjustment for the period of previous 30 days shall take no more than 30min.;1;0;0
+7;The System shall be able to automatically backup business data and restore them on demand.;1;0;1
+7;The System shall allow generation of Inventory Quantity Adjustment documents on demand.;1;0;1
+7;The System shall allow on demand generation of all Inventory Quantity Adjustment documents since certain point of time.;1;0;1
+7;The IQA subsystem shall take into account current inventory status and adjust inventory of substitutionary ingredients accordingly.;0;1;1
+7;The System shall allow entering storing and modifying product formulas.;1;0;0
+7;Product formulas shall allow use of semi-products which have own formulas.;1;1;0
+7;Product formula ingredients shall allow defining substitutionary ingredients.;1;1;0
+7;Product formula substitutionary ingredients shall be entered automatically by the PFE subsystem.;1;0;0
+7;Formula substitutionary ingredients shall be kept in persisted order;0;1;1
+7;Product shall allow entering storing and modifying product menus used by POS terminals.;1;0;0
+7;PME Subsystem shall allow building product menus based on the list of products kept in the accounting system.;1;0;0
+7;PME Subsystem shall allow for a product to exist in more than one submenu;0;1;0
+7;The System shall generate Inventory Quantity Adjustment document based on product daily sales data and product formulas.;1;0;0
+7;The System shall generate Inventory Quantity Adjustment document automatically when daily Product Sales data is available.;0;0;1
+8;Administrator shall be able to activate a pre-paid card via the Administration section in under 5 seconds.;1;0;0
+8;Customer shall be able to check the status of their prepaid card by entering in the PIN number in under 5 seconds.;1;0;0
+8;"System shall let customers register on the website as a ""pay as you go"" user in under 5 minutes.";1;0;0
+8;"System shall let customers register on the website as a ""unlimited movie subscriber"" user in under 10 minutes.";1;0;0
+8;System shall let existing customers log into the website with their email address and password in under 5 seconds.;1;0;0
+8;System shall let customers cancel their account process shall take no longer than 2 minutes. Database will mark the account as inactive and user will not be able to log into the website.;1;0;1
+8;System shall let administrator de-activate a customer account in under 1 minute. Customer will no longer be able to access the website.;1;0;1
+8;System shall let administrator add/remove movies on the website in under 5 minutes. Entered movie information will be stored in the database and will now be available on the website.;1;1;1
+8;System shall let the administrator add/remove categories on the website in under 5 minutes.;1;0;0
+8;System shall let administrators generate unique pre-paid pins in under 2 minutes and generate an Excel file with the generated PINs.;1;0;0
+8;Users should be able to access their streaming movies in under 2 clicks after logging into the website.;1;0;0
+8;The product shall retain the customer's buying preferences and information.;0;1;1
+8;The product shall be easy for customers with novice skills on the Internet to purchase and watch streaming movies. Customers should be able to purchase and watch a pre-determined movie in under 3 minutes.;1;0;0
+8;All movies shall be streamed on demand at any time of the day.;0;0;1
+8;Izogn Administrator must be able to update the category listings on the website within 2 minutes.;1;0;0
+8;Izogn Administrator must be able to add new products to the website within 2 minutes.;1;0;0
+8;The website will provide a help section with answers and solutions to common problems.;0;1;0
+8;The website shall make its user aware of its information practices before collection data from them via a Privacy Policy accessible on all pages of the website.;0;0;1
+8;The system shall notify customers of changes to its information policy.;1;0;0
+8;The website will allow customers to search for movies by title actor or director.;1;0;0
+8;viewing a movie details the website will display the movies description actor and director entered in by the administrator.;1;0;0
+8;Website shall request and authorize credit card payment before allowing a user to stream a movie.;0;0;1
+8;shall be able to stream purchased movie via Windows Media Player for up to 2 days aftere purchase date.;0;0;1
+8;Website shall allow customers to browse movies by categories entered in by izogn administrator.;1;0;0
+8;Website shall allow customers to view reviews of selected movies by other customers.;1;0;0
+8;Website shall allow customers to add their own movie review for a selected movie.;1;0;0
+8;Website shall allow the Izogn administrator to approve a review posted by a customer.;1;0;0
+8;System will allow customers to pay for a streaming movie with a pre-paid card.;1;0;0
+8;Website shall allow customers to purchase pre-paid cards of $5 $10 or $20 value either by credit card or mail-in payment option.;1;0;0
+8;System shall automatically update the main page of the website every Friday and show the 4 latest movies that have been added to the website.;0;0;1
+8;"System shall allow users to update their billing and contact information via the ""My Account"" section of the website.";1;0;0
+8;Pre-paid cards shall be distributed via email or via a printed paper card.;1;0;0
+8;Only registered customers can purchase streaming movies.;0;0;1
+8;Movies can only be streamed if the customer has purchased a movie and is within the 2-day time period to stream the movie.;0;0;1
+8;Website must be able to support free trial periods with various parameters set by the Izogn Manager.;1;0;0
+8;All streaming movie sales will be logged in the database and accessible by the administrator.;1;0;1
+8;All registered customer information shall be stored and maintained in the database even after the customer cancels their account.;0;1;1
+8;Daily usage statistics should be logged and accessible by the administrator.;1;0;1
+9;For leads that process longer than 25 seconds the system will record the event and duration;0;0;1
+9;The vendor will verify the invalid lead.;1;0;0
+9;Vendor will submit a credit validation record to be applied to the enterprise billing system.;1;0;0
+9;If a lead is scored to the high range the system will supply the lead data and score to the enterprise system.;0;0;1
+9;The leads washing functionality will validate all leads received by the web service for valid data;1;0;1
+9;The leads washing functionality will insert all leads captured by the web service.;1;0;1
+9;If the leads score falls within the high average score then it will be process by the ARA functionality.;0;0;1
+9;If the leads score falls within the medium average then it will be set for manual verification by an Enrollment Coordinator through the eleads system.;0;0;1
+9;If the leads score falls within the low average then it will be returned to the supplying vendor;0;0;1
+9;The leads washing functionality will compile both contact and academic scoring information for a total score.;1;0;0
+9;The leads washing functionality will use the parameters supplied by corporate and schools to score part of the lead.;1;0;0
+9;The leads washing functionality will return the lead data supplied to the vendor along with the reason of rejection.;1;0;0
+9;The leads washing functionality will have an interface in which lead data parameters can be maintained.;1;1;0
+9;The leads washing functionality will verify the users authentication and rights to make parameter updates.;1;0;0
+9;The leads washing functionality will store any potential lead duplicates returned by the enterprise system.;1;1;1
+9;Prior to submitting the lead to the enterprise system the leads washing functionality will assign the lead to an admissions rep.;0;0;1
+9;The leads washing functionality shall receive a period list of available reps from the enterprise system.;1;0;1
+10;When the offensive player takes a shot the product shall simulate the sound of a ship at sea.;0;0;1
+10;When a shot is marked as a miss the product shall simulate the sound of a shot missing its target.;0;0;1
+10;When a shot is marked as a hit the product shall simulate the sound of a shot hitting its target.;0;0;1
+10;When a ship is sunk the product shall simulate the sound of a sinking ship.;0;0;1
+10;The product shall be available to players who understand English Spanish and French. The product shall allow the user to select the language upon accessing the product.;1;0;0
+10;The product shall maintain a list of players.;1;1;0
+10;The product shall allow a user to identify himself or herself as a player.;1;0;0
+10;Once a game has been initiated the product shall make the players assigned to the game unavailable for selection from the list of players.;0;0;1
+10;The product shall allow a user to remove himself or herself from the list of players at any time.;1;0;0
+10;The product shall make inactive players unavailable for selection from the list of players.;0;0;1
+10;The product shall remove players who have been inactive for 24 hours from the list of players.;0;0;1
+10;The product shall allow a player to initiate a game by selecting another available player from the list of players.;1;0;0
+10;Once a game is initiated the product shall display a defensive grid to each player;0;1;1
+10;Once a game is initiated the product shall display an offensive grid to each player.;0;1;1
+10;The product shall prevent a player from viewing the offensive or defensive grids of the other player.;0;0;1
+10;Once a game is initiated the product shall allow each player to position their 5 ships on their respective defensive grids.;0;1;1
+10;The product shall allow a player to position ships horizontally on their grid.;1;0;0
+10;The product shall allow the player to position ships vertically on their grid.;1;0;0
+10;The product shall allow the player to position ships diagonally on their grid;1;0;0
+10;The product shall prevent the player from overlapping ships on their grid.;0;0;1
+10;When both players have positioned their 5 ships on their defensive grids the product shall define the status of each player for the first turn.;0;1;1
+10;For each turn the product shall identify one player as offensive status and one player as defensive status.;0;0;1
+10;The product shall maintain the status of each player for a turn either offensive or defensive.;0;1;1
+10;At the start of each turn the product shall notify each player of his or her status.;0;0;1
+10;For each turn the product shall allow the offensive player to define a shot.;0;0;1
+10;For each shot the product shall examine the defensive grid of the defensive player to determine whether the shot was a hit or miss.;0;0;1
+10;For each shot the product shall notify the players whether the shot was a hit or miss.;0;0;1
+10;For each shot the product shall mark the shot as a hit or miss on the defensive grid of the defensive player.;0;0;1
+10;For each shot the product shall mark the shot as a hit or miss on the offensive grid of the offensive player.;0;0;1
+10;When the hit results in sinking a ship the product shall notify the players that the ship was sunk.;0;0;1
+10;When the hit results in sinking a ship the product shall mark the ship as sunk on the defensive grid of the defensive player.;0;0;1
+10;When the hit results in sinking a ship the product shall indicate the type of ship sunk on the defensive grid of the defensive player.;0;0;1
+10;When the hit results in sinking a ship the product shall mark the ship as sunk on the offensive grid of the offensive player.;0;0;1
+10;If the shot was marked as a hit the product shall allow the offensive player to define a shot.;0;0;1
+10;If the shot was marked as a miss the product shall change the status of the offensive player to defensive;0;0;1
+10;If the shot was marked as a miss the product shall change the status of the defensive player to offensive;0;0;1
+10;The product shall continue to assign turns until the game is ended.;0;0;1
+10;The product shall end a game when a hit by the offensive player results in sinking the last of the defensive player's ships which had not been previously marked as sunk.;0;0;1
+10;The product shall allow a player to end a game at any time during the game.;1;0;0
+10;When a game is ended the product shall notify the players that the game is ended.;0;0;1
+10;The notification of the game ending will include the reason the game is ended (i.e. a player has won the game or a player has ended the game).;0;1;0
+10;When a game is ended the product shall allow each player to identify himself or herself as an available player in the list of players.;1;0;1
+10;When a game is ended the product shall allow each player to remove himself or herself from the list of players.;1;0;1
+11;The product shall ensure that only supervisors can advertise empty time slots.The product must ensure that supervisors are allowed to access advertise empty time slots.';1;0;1
+11;The product shall ensure that only supervisors can enter a caller's schedule.The product must ensure that supervisors are allowed to access advertise empty time slots.';1;0;1
+11;The product shall ensure that only supervisors can view schedule of all callers.The product must ensure that supervisors are allowed to access advertise empty time slots.';1;0;1
+12;The product shall provide GUI based Monitoring Services.System Administrators shall monitor message exchanges will predict and determine problems and will also provide internal and external support.;1;0;0
+12;The product shall provide Monitoring Services.The product shall be easy for System Administrators and DBAs to use after two weeks of usage.;1;0;0
+12;The product shall provide Error Tracking Services.The product shall help the System Administrators and DBAs to resolve transaction errors 99% of the time.;1;0;0
+12;The product shall provide Portals.The product shall help System Administrators to analyze the transactions with ad-hoc reporting and KPIs (Key Performance Indicators);1;1;0
+12;The product shall provide Asynchronous Messaging.The product shall provide asynchronous messaging to enable parallel processing and reduce the overhead in communications;1;0;0
+12;The product shall process messages within 2 seconds.The product shall have a maximum message processing time of 2 seconds;0;0;1
+12;The product shall poll the system for messages every second.The product shall poll the system for new messages at a maximum of every 1 second.;0;0;1
+12;The product shall provide Dynamic Change Support and Transparent resource addition.The product shall support Transparent Resource addition and Dynamic Change support to provide scalability and avoid service interruptions of more than 1 day.;1;0;0
+13;The interface must summarize the data in a fashion that's appealing to CCR management. Every report type must have at least one high level summary shown in the results dashboard/interface;0;1;1
+13;The Brio portion of the WCS system must be able to export files in spreadsheet form (Microsoft Excel and Lotus 1-2-3 formats). Brio will provide buttons in the user interface that produce/export reports in .xls or .123 file formats.;1;1;0
+13;The WCS system must run queries to the WCS databases once again (on a specified day) to update the available data available to CCR users. Queries must be made to external databases for data refresh once a week.;0;0;1
+14;The message board shall contain the 5 most recently posted messages on the league page. The messages will contain up to the first 150 characters of the message.;0;1;0
+14;Users shall be able to view at least 25 NFL player statistics and points on each page.;1;1;0
+14;The application shall ask the user to confirm dropping a player or trading a player before performing the action.;0;0;1

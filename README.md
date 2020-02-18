@@ -7,7 +7,7 @@ This repository contains code and datasets used in the paper:
 * [func_nfr](./func_nfr/) contains the labeled dataset, information about our labeling (including Krippendorf's Alpha, KALPHA), and our python notebooks.
 
 ## How to use
-To use the notebooks, we recommend you to load them into [Google Colab](colab.research.google.com/).
+To use the notebooks, we recommend you to load them into [Google Colab](https://colab.research.google.com/github/norbert-one/NoRBERT).
 In each notebook is a cell with the configuration that can be tuned.
 Make sure to correctly set paths to data folders/files as well as for logging output.
 We recommend you to load the data in your Google Drive, from where it can be imported.

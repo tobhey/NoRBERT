@@ -15,3 +15,11 @@ In each notebook is a cell with the configuration that can be tuned.
 Make sure to correctly set paths to data folders/files as well as for logging output.
 We recommend you to load the data in your Google Drive, from where it can be imported.
 Make sure to adapt the corresponding paths in the notebooks.
+
+
+## Attribution
+The Promise Dataset can be attributed to Jane Cleland-Huang and was provided for the RE'17 Data Challenge.<br>
+See also: Sayyad Shirabad, J. and Menzies, T.J. (2005) The PROMISE Repository of Software Engineering Databases. School of Information Technology and Engineering, University of Ottawa, Canada . Available: http://promise.site.uottawa.ca/SERepository 
+
+The relabeled dataset can be attributed to Dalpiaz et al:
+F. Dalpiaz, D. Dell’Anna,  F. B. Aydemir, and  S. Çevikol, “explainable-re/re-2019-materials,” Jul.2019. https://doi.org/10.5281/zenodo.3309669

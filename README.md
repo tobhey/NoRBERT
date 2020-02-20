@@ -4,7 +4,7 @@ This is the repository for the paper "NoRBERT: Transfer Learning for Requirement
 This repository contains code and datasets used in the paper:
 * [Promise](./Promise/) contains the python notebooks (code) for Task1 (F/NFR binary class.), Task2 (most frequent NFR subclasses class. of), and Task3 (all NFR subclasses class.). Also contains the used dataset.
 * [Promise_relabeled](./Promise_relabeled/) contains the relabeled PROMISE dataset along with our python notebooks (code). This represents Task4.
-* [func_nfr](./func_nfr/) contains the labeled dataset, information about our labeling (including Krippendorf's Alpha, KALPHA), and our python notebooks.
+* [func_nfr](./func_nfr/) contains the labeled dataset for the classification of functional requirements, information about our labeling (including Krippendorf's Alpha, KALPHA), and our python notebooks.
 * NoRBERT_use.ipynp allows to load a pretrained model and experiment with different inputs. Note: Currently, we cannot offer pretrained models, yet
 
 ## How to use

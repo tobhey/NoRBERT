@@ -19,7 +19,10 @@ Make sure to adapt the corresponding paths in the notebooks.
 
 ## Attribution
 The Promise Dataset can be attributed to Jane Cleland-Huang and was provided for the RE'17 Data Challenge.<br>
-See also: Sayyad Shirabad, J. and Menzies, T.J. (2005) The PROMISE Repository of Software Engineering Databases. School of Information Technology and Engineering, University of Ottawa, Canada . Available: http://promise.site.uottawa.ca/SERepository 
+Jane Cleland-Huang, Sepideh Mazrouee, Huang Liguo, & Dan Port. (2007). nfr [Data set]. Zenodo. Available: http://doi.org/10.5281/zenodo.268542<br>
+RE'17 Data Challenge: http://ctp.di.fct.unl.pt/RE2017/pages/submission/data_papers/<br>
+See also: 
+Sayyad Shirabad, J. and Menzies, T.J. (2005) The PROMISE Repository of Software Engineering Databases. School of Information Technology and Engineering, University of Ottawa, Canada . Available: http://promise.site.uottawa.ca/SERepository 
 
 The relabeled dataset can be attributed to Dalpiaz et al:
 F. Dalpiaz, D. Dell’Anna,  F. B. Aydemir, and  S. Çevikol, “explainable-re/re-2019-materials,” Jul.2019. https://doi.org/10.5281/zenodo.3309669

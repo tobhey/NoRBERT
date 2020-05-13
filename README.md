@@ -1,21 +1,17 @@
 # NoRBERT: Transfer Learning for Requirements Classification
-This is the repository for the paper "NoRBERT: Transfer Learning for Requirements Classification".
+This is the supplementary material repository of the paper "NoRBERT: Transfer Learning for Requirements Classification".
 
-This repository contains code and datasets used in the paper:
-* [Promise](./Promise/) contains the python notebooks (code) for Task1 (F/NFR binary class.), Task2 (most frequent NFR subclasses class. of), and Task3 (all NFR subclasses class.). Also contains the used dataset.
-* [Promise_relabeled](./Promise_relabeled/) contains the relabeled PROMISE dataset along with our python notebooks (code). This represents Task4.
-* [func_nfr](./func_nfr/) contains the labeled dataset for the classification of functional requirements, information about our labeling (including Krippendorf's Alpha, KALPHA), and our python notebooks.
-* NoRBERT_use.ipynp allows to load a pretrained model and experiment with different inputs. Note: Currently, we cannot offer pretrained models, yet
+This repository contains datasets and code used in the paper plus additional results:
 
-## How to use
-To use the notebooks, we recommend you to load them into [Google Colab](https://colab.research.google.com/github/norbert-one/NoRBERT).
-Please make sure that you use a GPU (in Colab: Edit -> Notebook settings -> Hardware accelerator: GPU).
-
-In each notebook is a cell with the configuration that can be tuned.
-Make sure to correctly set paths to data folders/files as well as for logging output.
-We recommend you to load the data in your Google Drive, from where it can be imported.
-Make sure to adapt the corresponding paths in the notebooks.
-
+* [Dataset](./Dataset/) contains the labeled dataset for the classification of functional requirements concerns (based on Promise NFR dataset) as well as information about our labeling (results of each annotator and Krippendorf's Alpha, KALPHA)
+* [Code](./Code/) contains the python notebooks (code) and used datasets for 
+	- [Task 1](./Code/Task1_to_3_original_Promise_NFR_dataset): Binary F/NFR classification (on Promise NFR dataset)
+	- [Task 2](./Code/Task1_to_3_original_Promise_NFR_dataset): Classification of most frequent NFR subclasses (on Promise NFR dataset)
+	- [Task 3](./Code/Task1_to_3_original_Promise_NFR_dataset): Classification of all NFR subclasses (on Promise NFR dataset)
+	- [Task 4](./Code/Task4_relabeled_Promise_NFR_dataset): Functional and Quality aspects classification (on relabeled Promise NFR dataset)
+	- [Task 5](./Code/Task5_func_concerns_dataset): Classification of functional requirements concerns (on functional concerns dataset)
+	- [Notebook](./Code/Apply_Pretrained_Model) to apply pretrained models to Task 5
+* [Results](./Results/) contains the results of all tested hyperparameter configurations for each task
 
 ## Attribution
 The Promise Dataset can be attributed to Jane Cleland-Huang and was provided for the RE'17 Data Challenge.<br>

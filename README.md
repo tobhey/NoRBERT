@@ -9,11 +9,14 @@ This repository contains datasets and code used in the paper plus additional res
 	- [Task 2](./Code/Task1_to_3_original_Promise_NFR_dataset): Classification of most frequent NFR subclasses (on Promise NFR dataset)
 	- [Task 3](./Code/Task1_to_3_original_Promise_NFR_dataset): Classification of all NFR subclasses (on Promise NFR dataset)
 	- [Task 4](./Code/Task4_relabeled_Promise_NFR_dataset): Functional and Quality aspects classification (on relabeled Promise NFR dataset)
-	- [Task 5](./Code/Task5_func_concerns_dataset): Classification of functional requirements concerns (on functional concerns dataset)
-	- [Notebook](./Code/Apply_Pretrained_Model) to apply pretrained models to Task 5
+	- [Task 5](./Code/Task5_func_concerns_dataset): Classification of functional requirement concerns (on functional concerns dataset)
+	- [Notebooks](./Code/Apply_Pretrained_Model) to apply pretrained models for each task to an input requirement and pretrained models for each task
 * [Results](./Results/) contains the results of all tested hyperparameter configurations for each task
 
-## Attribution
+Note that we are not able to provide the actual models that were used to produce the results of the paper, as we used cross validation which would result in a huge amount of model files per experiment run on each task. As the model files are quite large this is not viable.
+The results may be reproduced with the supplied notebooks anyways.
+
+## Attribution (of datasets used)
 The Promise Dataset can be attributed to Jane Cleland-Huang and was provided for the RE'17 Data Challenge.<br>
 Jane Cleland-Huang, Sepideh Mazrouee, Huang Liguo, & Dan Port. (2007). nfr [Data set]. Zenodo. Available: http://doi.org/10.5281/zenodo.268542<br>
 RE'17 Data Challenge: http://ctp.di.fct.unl.pt/RE2017/pages/submission/data_papers/<br>

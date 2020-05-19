@@ -8,6 +8,8 @@ We would love to provide the models we used to produce the results with, but as 
 
 Each model (.pkl) is accompanied by a .config file displaying the configuration used to train the model.
 
+Pretrained model files can be found in [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3833661.svg)](https://doi.org/10.5281/zenodo.3833661)
+
 # How to use
 
 The Notebooks are mostly self-explainatory. We also recommend to use Google Colab here. Elsewise some of the imported python libaries may have to be installed via pip.

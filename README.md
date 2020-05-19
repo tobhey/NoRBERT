@@ -1,4 +1,5 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3833661.svg)](https://doi.org/10.5281/zenodo.3833661)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3833661.svg)](https://doi.org/10.5281/zenodo.3833661) 
+![GitHub](https://img.shields.io/github/license/tobhey/NoRBERT)
 
 # NoRBERT: Transfer Learning for Requirements Classification
 This is the supplementary material repository of the paper "NoRBERT: Transfer Learning for Requirements Classification".

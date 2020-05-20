@@ -8,9 +8,9 @@ We would love to provide the models we used to produce the results with, but as 
 
 Each model (.pkl) is accompanied by a .config file displaying the configuration used to train the model.
 
-Pretrained model files can be found in [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3833661.svg)](https://doi.org/10.5281/zenodo.3833661)
+Pretrained model files can be found in [`NoRBERT_pretrained_models.zip`](https://doi.org/10.5281/zenodo.3833661) on Zenodo.
 
 # How to use
 
-The Notebooks are mostly self-explainatory. We also recommend to use Google Colab here. Elsewise some of the imported python libaries may have to be installed via pip.
+The Notebooks are mostly self-explanatory. We also recommend to use Google Colab here. Elsewise some imported python libraries may have to be installed via pip.
 One has to configure the path to the model file either locally or if using Colab via Google Drive connector.

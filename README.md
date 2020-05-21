@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3833661.svg)](https://doi.org/10.5281/zenodo.3833661)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3837375.svg)](https://doi.org/10.5281/zenodo.3837375)
 ![GitHub](https://img.shields.io/github/license/tobhey/NoRBERT)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tobhey/NoRBERT)

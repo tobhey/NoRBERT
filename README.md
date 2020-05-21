@@ -1,5 +1,7 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3833661.svg)](https://doi.org/10.5281/zenodo.3833661) 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3833661.svg)](https://doi.org/10.5281/zenodo.3833661)
 ![GitHub](https://img.shields.io/github/license/tobhey/NoRBERT)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tobhey/NoRBERT)
 
 # NoRBERT: Transfer Learning for Requirements Classification
 This is the supplementary material repository of the paper "NoRBERT: Transfer Learning for Requirements Classification".
@@ -9,7 +11,7 @@ Additionally, we developed a new dataset based on the Promise NFR dataset, that 
 This repository contains the datasets and code used in the paper, as well as additional results:
 
 * [Dataset](./Dataset/) contains the labeled dataset for the classification of functional requirements concerns (based on Promise NFR dataset) as well as information about our labeling (results of each annotator and Krippendorf's Alpha, KALPHA)
-* [Code](./Code/) contains the python notebooks (code) and datasets used for 
+* [Code](./Code/) contains the python notebooks (code) and datasets used for
 	- [Task 1](./Code/Task1_to_3_original_Promise_NFR_dataset): Binary F/NFR classification (on Promise NFR dataset)
 	- [Task 2](./Code/Task1_to_3_original_Promise_NFR_dataset): Classification of most frequent NFR subclasses (on Promise NFR dataset)
 	- [Task 3](./Code/Task1_to_3_original_Promise_NFR_dataset): Classification of all NFR subclasses (on Promise NFR dataset)
@@ -19,7 +21,7 @@ This repository contains the datasets and code used in the paper, as well as add
 * [Results](./Results/) contains the results of all tested hyperparameter configurations for each task
 
 Note that we are not able to provide the actual models that were used to produce the results of the paper.
-We used cross validation experiments that would result in a huge amount of model files per experiment run on each task. 
+We used cross validation experiments that would result in a huge amount of model files per experiment run on each task.
 As the model files are quite large this is not feasible.
 The results may still be reproduced with the supplied notebooks.
 
@@ -27,8 +29,8 @@ The results may still be reproduced with the supplied notebooks.
 The Promise Dataset can be attributed to Jane Cleland-Huang and was provided for the RE'17 Data Challenge.<br>
 Jane Cleland-Huang, Sepideh Mazrouee, Huang Liguo, & Dan Port. (2007). nfr [Data set]. Zenodo. Available: http://doi.org/10.5281/zenodo.268542<br>
 RE'17 Data Challenge: http://ctp.di.fct.unl.pt/RE2017/pages/submission/data_papers/<br>
-See also: 
-Sayyad Shirabad, J. and Menzies, T.J. (2005) The PROMISE Repository of Software Engineering Databases. School of Information Technology and Engineering, University of Ottawa, Canada. Available: http://promise.site.uottawa.ca/SERepository 
+See also:
+Sayyad Shirabad, J. and Menzies, T.J. (2005) The PROMISE Repository of Software Engineering Databases. School of Information Technology and Engineering, University of Ottawa, Canada. Available: http://promise.site.uottawa.ca/SERepository
 
 The relabeled Promise dataset can be attributed to Dalpiaz et al.:
 F. Dalpiaz, D. Dell’Anna,  F. B. Aydemir, and  S. Çevikol, “explainable-re/re-2019-materials,” Jul.2019. https://doi.org/10.5281/zenodo.3309669

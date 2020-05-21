@@ -5,7 +5,9 @@ We provide a file containing all code, datasets and results (`NoRBERT_RE20_Paper
 
 ## How to use
 To use the notebooks, we recommend you to load them into [Google Colab](https://colab.research.google.com/github/tobhey/NoRBERT) (this link opens this repository directly in Colab and allows you to open one of the notebooks).
-Please make sure that you use a GPU (in Colab: Edit -> Notebook settings -> Hardware accelerator: GPU).
+With Colab, you should be able to open the notebooks, set the preferred configuration parameters and run all cells (CTRL+F9 or Runtime -> Run All).
+A GPU as hardware accelerator should already be used by Colab.
+We have a cell that checks if a GPU is used; if it turns out that none is used, please enable the GPU (in Colab: Edit -> Notebook settings -> Hardware accelerator: GPU).
 
 If you plan on running locally, you need to install [Jupyter](https://jupyter.org/install).
 Furthermore, you might have to install further python dependencies than the ones installed in the notebooks (first cell) depending on your python installation.

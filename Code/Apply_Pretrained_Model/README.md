@@ -8,7 +8,7 @@ We would love to provide the models we used to produce the results with, but as 
 
 Each model (.pkl) is accompanied by a .config file displaying the configuration used to train the model.
 
-Pretrained model files can be found in [`NoRBERT_pretrained_models.zip`](https://doi.org/10.5281/zenodo.3837375) on Zenodo.
+Pretrained model files can be found in [`NoRBERT_pretrained_models.zip`](https://doi.org/10.5281/zenodo.3833660) on Zenodo.
 
 # How to use
 

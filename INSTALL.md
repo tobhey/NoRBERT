@@ -1,5 +1,5 @@
 ## Get the artifacts
-The artifacts can be downloaded from Zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3837375.svg)](https://doi.org/10.5281/zenodo.3837375)
+The artifacts can be downloaded from Zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3833660.svg)](https://doi.org/10.5281/zenodo.3833660)
 
 We provide a file containing all code, datasets and results (`NoRBERT_RE20_Paper65.zip`) as well as a file only containing the pretrained models (`NoRBERT_pretrained_models.zip`).
 

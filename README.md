@@ -20,10 +20,13 @@ This repository contains the datasets and code used in the paper, as well as add
 	- [Notebooks](./Code/Apply_Pretrained_Model) to apply pretrained models for each task to an input requirement and pretrained models for each task
 * [Results](./Results/) contains the results of all tested hyperparameter configurations for each task
 
-Note that we are not able to provide the actual models that were used to produce the results of the paper.
-We used cross validation experiments that would result in a huge amount of model files per experiment run on each task.
-As the model files are quite large this is not feasible.
-The results may still be reproduced with the supplied notebooks.
+| :exclamation:  Please Note:  |
+|-----------------------------------------|
+|Note that we calculated the overall results of the cross validations by collecting the predictions of all folds and calculating the metrics over all predictions instead of averaging the results per metric over the folds. However, our notebooks provide both results. |
+
+| :exclamation:  Please Note:  |
+|-----------------------------------------|
+|Note that we are not able to provide the actual models that were used to produce the results of the paper. We used cross validation experiments that would result in a huge amount of model files per experiment run on each task. As the model files are quite large this is not feasible. The results may still be reproduced with the supplied notebooks.|
 
 ## Attribution (of datasets used)
 The Promise Dataset can be attributed to Jane Cleland-Huang and was provided for the RE'17 Data Challenge.<br>

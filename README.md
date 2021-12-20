@@ -4,6 +4,10 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tobhey/NoRBERT)
 
 # NoRBERT: Transfer Learning for Requirements Classification
+| :exclamation:  Please Note:  |
+|-----------------------------------------|
+|We found a bug in the notebooks that caused the indexing of the project-specific folds to be wrong. Thus, the results for the p-fold and loPo settings reported in the original paper are not correct as they were not strictly project-specific. We published a corrected Version of the paper at https://doi.org/10.5445/IR/1000150464. We fixed the bug in this version. The overall claim that NoRBERT performs better on unseen projects than existing approaches still holds true but the results on this type of folds are slighty worse (about 5 percentage points in F1-score on average) than reported.|
+
 This is the supplementary material repository of the paper "NoRBERT: Transfer Learning for Requirements Classification".
 In this paper we explore the performance of transfer learning (with Google's language model BERT) on different tasks in requirements classification. Especially the performance on projects, completely unseen during training, is in the focus of the paper.
 Additionally, we developed a new dataset based on the Promise NFR dataset, that includes a more fine-grained labeling of functional requirement based on their concerns (Function, Data, Behavior).
@@ -19,6 +23,7 @@ This repository contains the datasets and code used in the paper, as well as add
 	- [Task 5](./Code/Task5_func_concerns_dataset): Classification of functional requirement concerns (on functional concerns dataset)
 	- [Notebooks](./Code/Apply_Pretrained_Model) to apply pretrained models for each task to an input requirement and pretrained models for each task
 * [Results](./Results/) contains the results of all tested hyperparameter configurations for each task
+
 
 | :exclamation:  Please Note:  |
 |-----------------------------------------|

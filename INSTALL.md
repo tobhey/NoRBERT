@@ -8,6 +8,10 @@ To use the notebooks, we recommend you to load them into [Google Colab](https://
 With Colab, you should be able to open the notebooks, set the preferred configuration parameters and run all cells (CTRL+F9 or Runtime -> Run All).
 A GPU as hardware accelerator should already be used by Colab.
 We have a cell that checks if a GPU is used; if it turns out that none is used, please enable the GPU (in Colab: Edit -> Notebook settings -> Hardware accelerator: GPU).
+In the future it might be possible, that the dependencies used by Colab are not compatible with our code any more.
+In that case you have to run the scripts locally.
+We used Python 3.7 and corresponding dependency versions.
+For special requirements see [requirements.txt](./requirements.txt).
 
 If you plan on running locally, you need to install [Jupyter](https://jupyter.org/install).
 Furthermore, you might have to install further python dependencies than the ones installed in the notebooks (first cell) depending on your python installation.
